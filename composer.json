@@ -1,0 +1,26 @@
+{
+    "name": "oas-php/utils",
+    "description": "common code used across oas-php project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kuba Biernacki",
+            "email": "kubiernacki@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-json": "*",
+        "nikic/php-parser": "^4.10",
+        "psr/event-dispatcher": "^1.0",
+        "nikic/iter": "^2.0",
+        "biera/array-accessor": "^1.0.1",
+        "laminas/laminas-code": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "OAS\\Utils\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,4 @@
+/vendor/
+.bash_history/
+.idea/
+test.php
