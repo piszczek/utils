@@ -16,7 +16,7 @@
         "psr/event-dispatcher": "^1.0",
         "nikic/iter": "^2.0",
         "biera/array-accessor": "^1.0.1",
-        "laminas/laminas-code": "^4.4"
+        "laminas/laminas-code": "^4.8"
     },
     "autoload": {
         "psr-4": {
